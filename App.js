@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+console.log("App.js is loading..."); // Debug log
 import { StyleSheet, View, ScrollView, Text, StatusBar } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import AddDrink from './components/AddDrink';
